@@ -1,3 +1,7 @@
+<?php
+include 'navbar.php';
+include 'connect.php';
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -11,7 +15,7 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>setting!</h1>
+  
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

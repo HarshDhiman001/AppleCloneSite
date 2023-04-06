@@ -11,7 +11,7 @@
     <title>Hello, world!</title>
   </head>
   <body>
-  <form action="connect.php" method="post" id="frm">
+  <form action="insert.php" method="post" id="frm">
   <div class="form-group">
     <label for="">Your Full Name</label>
     <input type="text" class="form-control" name="name" placeholder="Enter name">

@@ -14,35 +14,13 @@
     <title>Hello, world!</title>
   </head>
   <body>
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" id="image1" src="/onlinestore/images/iphone.jpg" alt="First slide">
-    </div>
-  </div>
-</div>
+    <center>
+      <h1 class="text-center" id="text1"><b>iPhone 14 Pro<br>Pro.Beyond.</b></h1>
+    </center>
+<img class="d-block w-100" id="image1" src="/onlinestore/images/iphone.jpg" alt="First slide">
+<!-- <h1 class="text-center" id="text4"><b>iPhone 14 Pro😄 <br> With brand new colors.</b></h1>
+<img class="d-block w-100" id="image2" src="/onlinestore/images/mobile.png" alt="First slide"> -->
 
-<div class="container" >
-  <div class="header" id="text1">
-    <h1>iPhone 14 Pro</h1>
-    <h3>Pro.Beyond.</h3>
-  </div>
-</div>
-
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-    <img class="d-block w-100" id="image2" src="/onlinestore/images/mobile.png" alt="First slide">
-    </div>
-  </div>
-</div>
-
-<div class="container">
-  <div class="box" id="text2">
-    <h1><b>iPhone 14 Pro😄</b></h1>
-    <h3>With brand new colors.</h3>
-  </div>
-</div>
 <h1 class="text-center" id="text3"><b>Brand new i-watches <br> With Different colors😁</b></h1>
 <img src="/onlinestore/images/watch.jpg" id="image3" class="img-fluid" alt="Responsive image">
 <h1 class="text-center" id="text4"><b>Brand new i-watches <br> With new features</b></h1>

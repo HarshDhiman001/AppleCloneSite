@@ -3,7 +3,7 @@
     position: fixed;
     height: 42px;
     padding: 0px 31% 0px 30%;
-    z-index: 100;
+    z-index: 200;
     width: 100%;
 }
 #applelogo
@@ -13,20 +13,20 @@
 }
 #image1 
 {
+    position: absolute;
     height: 40vh;
-    margin-top: 35px;
+    top: 41px;
 }
-#image2
-{
-    margin-top: 8%;
-    /* height: 88vh; */
-}
+/* #image2
+{   
+    position: absolute;
+    margin-top: 20%;
+} */
 #image3
 {
     position: relative;
     width: 100%;
-    /* top: 139%; */
-    margin-top: 8%;
+    margin-top: 32%;    
 }
 #settinglogo
 {
@@ -36,23 +36,24 @@
 }
 #text1
 {
-    position: absolute;
-    z-index: 99;
-    text-align: center;
-    bottom: 80%;
-    left: 42%;
     color: white;
-}
-#text2 {
     position: absolute;
-    bottom: 36%;
+    z-index: 100;
+    top: 7%;
+    left: -5%;
+    right: 50%;
+    width: 112%;
+}
+/* #text2 {
+    position: absolute;
     text-align: center;
     left: 40%;
-}
+    z-index: 99;
+} */
 #text3
 {
     position: absolute;
-    top: 148%;
+    top: 47%;
     left: 35%;
 }
 #footer 
