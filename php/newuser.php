@@ -13,20 +13,20 @@
   <body>
   <form action="insert.php" method="post" id="frm">
   <div class="form-group">
-    <label for="">Your Full Name</label>
+    <label>Your Full Name</label>
     <input type="text" class="form-control" name="name" placeholder="Enter name">
   </div>
   <div class="form-group">
-    <label for="exampleInputEmail1">Your Email</label>
+    <label>Your Email</label>
     <input type="email" class="form-control" name="email" placeholder="Enter email">
     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
   <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
+    <label>Password</label>
     <input type="password" id="password" class="form-control" name="password" placeholder="Enter your password">
   </div>
   <div class="form-group">
-    <label for="exampleInputPassword1">Conf-Password</label>
+    <label>Conf-Password</label>
     <input type="password" class="form-control" name="cpassword" placeholder="Re-Enter your password">
   </div>
   <div class="modal-footer">
