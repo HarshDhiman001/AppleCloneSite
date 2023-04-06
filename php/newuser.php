@@ -23,7 +23,7 @@
   </div>
   <div class="form-group">
     <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" name="password" placeholder="Enter your password">
+    <input type="password" id="password" class="form-control" name="password" placeholder="Enter your password">
   </div>
   <div class="form-group">
     <label for="exampleInputPassword1">Conf-Password</label>
@@ -45,10 +45,31 @@
     jQuery('#frm').validate({
       rules:{
         name:"required",
-        email:"required"
+        email:"required",
+        password:
+        {
+          required:true,
+          minlength:8,
+          maxlength:10
+        },
+        cpassword:{
+          required:true,
+          equalTo:"#password"        
+        }
       },
       messages:{
-        name:"please enter your name"
+        name:"please enter your name",
+        email:"please enter your valid email",
+        password:
+        {
+          required:"enter your password",
+          minlength:"min length is 8",
+          maxlength:"max length is 10"
+        },
+        cpassword:{
+          required:"enter your password again",
+          equalTo:"password is not same"        
+        }
       }
     })  
     </script>
