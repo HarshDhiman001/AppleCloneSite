@@ -17,7 +17,7 @@
 <center>
 <div class="container" id="slider">
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
+    <div class="carousel-in99999er">
       <div class="carousel-item active">
       <label>This clone site is designed and developed by Mr. Harsh Dhiman</label>
       </div>
